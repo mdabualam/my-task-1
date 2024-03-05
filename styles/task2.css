@@ -1,0 +1,233 @@
+
+body{
+    width: 1600px;
+    font-family: "Work Sans", sans-serif;
+}
+.section-top{
+    /* width: 1600px; */
+    height: 800px;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    text-align: right;
+    padding-top: 116px;
+}
+.top-title{
+    width: 530px;
+    height: 230px;
+    font-size: 65px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-left: 845px;
+    margin-right: 230px;
+}
+.top-info{
+    width: 500px;
+    height: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 875px;
+    margin-right: 230px;
+    margin-bottom: 35px;
+}
+.btn-top{
+    width: 160px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    color: #005FAC;
+    margin-left: 875px;
+    margin-right: 230px;
+    border-radius: 5px;
+    border: 0;
+}
+.failure{
+    margin-top: 50px;
+    width: 1072px;
+    height: 723.3px;
+}
+
+.section-two> .failure{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-left: 200px;
+    margin-right: 320px;   
+}
+.failure-title{
+    width: 288px;
+    height: 94px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-top: 150px;
+}
+.failure-info{
+    width: 416px;
+    height: 104px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+}
+.failure-list{
+    width: 350px;
+    height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+}
+.failure-list i{
+    width: 16px;
+    height: 11px;
+    color: #16D887;
+}
+
+.section-three{
+    margin: 130px 150px;
+}
+.plan-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.new-plan{
+    display: flex;
+    width: 1290px;
+    height: 200px;
+    justify-content:space-around;
+   
+}
+
+.skill-name{
+    margin-top: 20px;
+    text-align: center;
+}
+.skill-plan{
+    margin-top: 16px;
+    line-height: 1px;
+    text-align: center;
+}
+/* background image setup styles */
+.section-four{
+    margin: 0 230px;
+    width: 1140px;
+    height: 300px;
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+}
+/* background linear-gradient setup styles */
+.mindset{
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    background: linear-gradient(90.00deg, rgb(0, 95, 172),rgba(0, 95, 172, 0) 100%);
+}
+.mindset-title{
+    width: 460px;
+    height: 95;
+    padding-left: 65px;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border-radius: 8px;
+   
+}
+.btn-call{
+    margin-left: 65px;
+    margin-bottom: 60px;
+    width: 160px;
+    height: 65px;
+    font-size: 20x;
+    font-weight: 600;
+    font-family: Work Sans;
+    color: #005FAC;
+    border-radius: 5px;
+    border: 0;
+}
+footer{
+    margin-top: 100px;
+    /* width: 1600px; */
+    height: 400px; 
+    padding: 130px 230px;
+    background: #151414;     
+    display: flex;
+    gap: 330px;
+    
+}
+.footer-future{
+    width: 485px;
+    height: 317px;
+}
+.future-future, a{
+    margin-right: 25px;
+}
+
+.f-title{
+    width: 148px;
+    height: 53px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+}
+.f-info{
+    width: 485px;
+    height: 78px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.f-mail{
+    width: 184px;
+    height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.f-phone{
+    width: 186px;
+    height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.footer-subscribe{
+    width: 325px;
+    height: 204px;  
+}
+.sub-title{
+    width: 123px;
+    height: 29px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+ .sub-input{
+    width: 325px;
+    height: 64px;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+    background: #151414;
+    color: rgb(243, 243, 243);
+    padding-left: 20px;
+}
+.btn-sub{
+    width: 170px;
+    height: 65px;
+    border-radius: 8px;
+    background: rgb(0, 95, 172);
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: 0;
+}
+::placeholder{
+    color: #FFFFFF ;
+}
